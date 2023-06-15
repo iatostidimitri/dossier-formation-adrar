@@ -44,7 +44,7 @@
 												"$ref": "AAAAAAGIvgPsQBrf/Rk="
 											},
 											"font": "Arial;13;0",
-											"left": 32.72998046875,
+											"left": 64.72998046875,
 											"top": 29,
 											"width": 115.9052734375,
 											"height": 13,
@@ -57,7 +57,7 @@
 												"$ref": "AAAAAAGIvgPsQBrf/Rk="
 											},
 											"font": "Arial;13;1",
-											"left": 13,
+											"left": 45,
 											"top": 29,
 											"width": 14.72998046875,
 											"height": 13,
@@ -65,7 +65,7 @@
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 8,
+									"left": 40,
 									"top": 24,
 									"width": 753,
 									"height": 1281,
@@ -177,14 +177,14 @@
 											"left": 109,
 											"top": 80,
 											"width": 1,
-											"height": 705
+											"height": 735
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 64,
 									"top": 40,
 									"width": 90.7890625,
-									"height": 745,
+									"height": 775,
 									"nameCompartment": {
 										"$ref": "AAAAAAGIvgP0/hru9t4="
 									},
@@ -293,14 +293,14 @@
 											"left": 636,
 											"top": 80,
 											"width": 1,
-											"height": 703
+											"height": 735
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 600,
 									"top": 40,
 									"width": 72.736328125,
-									"height": 743,
+									"height": 775,
 									"nameCompartment": {
 										"$ref": "AAAAAAGIvgRMpRsOuAg="
 									},
@@ -662,12 +662,12 @@
 												"$ref": "AAAAAAGIvgiXRBw9kkw="
 											},
 											"font": "Arial;13;0",
-											"left": 605,
-											"top": 291,
+											"left": 711,
+											"top": 296,
 											"width": 153.892578125,
 											"height": 13,
-											"alpha": 1.5707963267948966,
-											"distance": 10,
+											"alpha": 1.5363262287645094,
+											"distance": 116.06894502837527,
 											"hostEdge": {
 												"$ref": "AAAAAAGIvgiXRBw+MtI="
 											},
@@ -773,12 +773,12 @@
 												"$ref": "AAAAAAGIvgihrBxSjIg="
 											},
 											"font": "Arial;13;0",
-											"left": 607,
-											"top": 395,
+											"left": 718,
+											"top": 400,
 											"width": 148.103515625,
 											"height": 13,
-											"alpha": 1.5707963267948966,
-											"distance": 10,
+											"alpha": 1.537749512505038,
+											"distance": 121.06609764917675,
 											"hostEdge": {
 												"$ref": "AAAAAAGIvgihrBxTjCk="
 											},
@@ -884,12 +884,12 @@
 												"$ref": "AAAAAAGIvgiq2xxnAxc="
 											},
 											"font": "Arial;13;0",
-											"left": 516,
-											"top": 467,
+											"left": 703,
+											"top": 464,
 											"width": 330.19873046875,
 											"height": 13,
-											"alpha": 1.5707963267948966,
-											"distance": 10,
+											"alpha": 1.5912006564406354,
+											"distance": 196.04081207748553,
 											"hostEdge": {
 												"$ref": "AAAAAAGIvgiq2xxo7wc="
 											},
@@ -1174,7 +1174,7 @@
 											"left": 629,
 											"top": 664,
 											"width": 14,
-											"height": 97
+											"height": 124
 										}
 									],
 									"font": "Arial;13;0",
@@ -1244,12 +1244,12 @@
 												"$ref": "AAAAAAGIvhCEPB0Th2E="
 											},
 											"font": "Arial;13;0",
-											"left": 576,
+											"left": 686,
 											"top": 688,
 											"width": 206.63525390625,
 											"height": 13,
-											"alpha": 1.1071482177935905,
-											"distance": 8.94427190999916,
+											"alpha": 1.5369099997602194,
+											"distance": 118.06777714516353,
 											"hostEdge": {
 												"$ref": "AAAAAAGIvhCEPR0U9Oc="
 											},
@@ -1336,6 +1336,143 @@
 									}
 								},
 								{
+									"_type": "UMLNoteView",
+									"_id": "AAAAAAGIvhY4LB02yYc=",
+									"_parent": {
+										"$ref": "AAAAAAGIvgPsQBreDLc="
+									},
+									"font": "Arial;13;0",
+									"left": 112,
+									"top": 1088,
+									"width": 297,
+									"height": 137,
+									"text": "(6) scénario d'erreur : l'article est lié à des notes et des commentaires. \n\n6.1 La SI informe que la suppression est impossible\n6.2 Le scénario s'arrête vi\n\n"
+								},
+								{
+									"_type": "UMLNoteView",
+									"_id": "AAAAAAGIvhZyPB08i54=",
+									"_parent": {
+										"$ref": "AAAAAAGIvgPsQBreDLc="
+									},
+									"font": "Arial;13;0",
+									"left": 448,
+									"top": 1080,
+									"width": 249,
+									"height": 153,
+									"text": "(9) Scénario d'erreur : le modérateur n'a pas confirmé la suppression\n\n9.1 : la SI annule la confirmation de la suppression \n\nLe scénario s'arrête à ce point "
+								},
+								{
+									"_type": "UMLSeqMessageView",
+									"_id": "AAAAAAGIvkhUO53rd+s=",
+									"_parent": {
+										"$ref": "AAAAAAGIvgPsQBreDLc="
+									},
+									"model": {
+										"$ref": "AAAAAAGIvkhUO53qK8A="
+									},
+									"subViews": [
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGIvkhUO53swEI=",
+											"_parent": {
+												"$ref": "AAAAAAGIvkhUO53rd+s="
+											},
+											"model": {
+												"$ref": "AAAAAAGIvkhUO53qK8A="
+											},
+											"font": "Arial;13;0",
+											"left": 720,
+											"top": 739,
+											"width": 123.55078125,
+											"height": 13,
+											"alpha": 1.5799693804983976,
+											"distance": 109.00458705944443,
+											"hostEdge": {
+												"$ref": "AAAAAAGIvkhUO53rd+s="
+											},
+											"edgePosition": 1,
+											"text": "10 : Supprimer article"
+										},
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGIvkhUPJ3ty38=",
+											"_parent": {
+												"$ref": "AAAAAAGIvkhUO53rd+s="
+											},
+											"model": {
+												"$ref": "AAAAAAGIvkhUO53qK8A="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 696,
+											"top": 739,
+											"height": 13,
+											"alpha": 1.5707963267948966,
+											"distance": 25,
+											"hostEdge": {
+												"$ref": "AAAAAAGIvkhUO53rd+s="
+											},
+											"edgePosition": 1
+										},
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGIvkhUPJ3uIpQ=",
+											"_parent": {
+												"$ref": "AAAAAAGIvkhUO53rd+s="
+											},
+											"model": {
+												"$ref": "AAAAAAGIvkhUO53qK8A="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 662,
+											"top": 740,
+											"height": 13,
+											"alpha": -1.5707963267948966,
+											"distance": 10,
+											"hostEdge": {
+												"$ref": "AAAAAAGIvkhUO53rd+s="
+											},
+											"edgePosition": 1
+										},
+										{
+											"_type": "UMLActivationView",
+											"_id": "AAAAAAGIvkhUPJ3vinA=",
+											"_parent": {
+												"$ref": "AAAAAAGIvkhUO53rd+s="
+											},
+											"model": {
+												"$ref": "AAAAAAGIvkhUO53qK8A="
+											},
+											"font": "Arial;13;0",
+											"left": 636,
+											"top": 756,
+											"width": 14,
+											"height": 29
+										}
+									],
+									"font": "Arial;13;0",
+									"head": {
+										"$ref": "AAAAAAGIvgRMpRsT4TQ="
+									},
+									"tail": {
+										"$ref": "AAAAAAGIvgRMpRsT4TQ="
+									},
+									"points": "642:736;672:736;672:756;649:756",
+									"nameLabel": {
+										"$ref": "AAAAAAGIvkhUO53swEI="
+									},
+									"stereotypeLabel": {
+										"$ref": "AAAAAAGIvkhUPJ3ty38="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGIvkhUPJ3uIpQ="
+									},
+									"activation": {
+										"$ref": "AAAAAAGIvkhUPJ3vinA="
+									}
+								},
+								{
 									"_type": "UMLSeqMessageView",
 									"_id": "AAAAAAGIvgymhBy3gX8=",
 									"_parent": {
@@ -1356,7 +1493,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 242,
-											"top": 756,
+											"top": 788,
 											"width": 253.3857421875,
 											"height": 13,
 											"alpha": 1.5707963267948966,
@@ -1365,7 +1502,7 @@
 												"$ref": "AAAAAAGIvgymhBy3gX8="
 											},
 											"edgePosition": 1,
-											"text": "10 : Afficher message article a été supprimé"
+											"text": "11 : Afficher message article a été supprimé"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -1379,7 +1516,7 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"left": 368,
-											"top": 771,
+											"top": 803,
 											"height": 13,
 											"alpha": 1.5707963267948966,
 											"distance": 25,
@@ -1400,7 +1537,7 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"left": 369,
-											"top": 736,
+											"top": 768,
 											"height": 13,
 											"alpha": -1.5707963267948966,
 											"distance": 10,
@@ -1421,7 +1558,7 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"left": 109,
-											"top": 752,
+											"top": 784,
 											"width": 14,
 											"height": 25
 										}
@@ -1433,7 +1570,7 @@
 									"tail": {
 										"$ref": "AAAAAAGIvgRMpRsT4TQ="
 									},
-									"points": "629:752;109:752",
+									"points": "629:784;109:784",
 									"nameLabel": {
 										"$ref": "AAAAAAGIvgymhBy4kfI="
 									},
@@ -1446,32 +1583,6 @@
 									"activation": {
 										"$ref": "AAAAAAGIvgymhBy7KJg="
 									}
-								},
-								{
-									"_type": "UMLNoteView",
-									"_id": "AAAAAAGIvhY4LB02yYc=",
-									"_parent": {
-										"$ref": "AAAAAAGIvgPsQBreDLc="
-									},
-									"font": "Arial;13;0",
-									"left": 112,
-									"top": 1088,
-									"width": 297,
-									"height": 137,
-									"text": "(6) scénario alternatif : l'article est lié à des notes et des commentaires. \n\n6.1 La SI demande au modérateur une confirmation de suppression \n6.2 Le modérateur confirme\n\nDans le scénario nominal considère que les informations sont OK\n"
-								},
-								{
-									"_type": "UMLNoteView",
-									"_id": "AAAAAAGIvhZyPB08i54=",
-									"_parent": {
-										"$ref": "AAAAAAGIvgPsQBreDLc="
-									},
-									"font": "Arial;13;0",
-									"left": 448,
-									"top": 1080,
-									"width": 249,
-									"height": 153,
-									"text": "(9) Scénario d'erreur : le modérateur n'a pas confirmé la suppression\n\n9.1 : la SI annule la confirmation de la suppression \n\nLe scénario s'arrête à ce point "
 								}
 							]
 						}
@@ -1607,6 +1718,20 @@
 						},
 						{
 							"_type": "UMLMessage",
+							"_id": "AAAAAAGIvkhUO53qK8A=",
+							"_parent": {
+								"$ref": "AAAAAAGIvgPsQBrd8rA="
+							},
+							"name": "Supprimer article",
+							"source": {
+								"$ref": "AAAAAAGIvgRMpRsMQBY="
+							},
+							"target": {
+								"$ref": "AAAAAAGIvgRMpRsMQBY="
+							}
+						},
+						{
+							"_type": "UMLMessage",
 							"_id": "AAAAAAGIvgymhBy2CxE=",
 							"_parent": {
 								"$ref": "AAAAAAGIvgPsQBrd8rA="
@@ -1656,7 +1781,8 @@
 					"_parent": {
 						"$ref": "AAAAAAGIvgPsQBrc3oI="
 					},
-					"name": "Role1"
+					"name": "Role1",
+					"type": ""
 				},
 				{
 					"_type": "UMLAttribute",
@@ -1664,7 +1790,8 @@
 					"_parent": {
 						"$ref": "AAAAAAGIvgPsQBrc3oI="
 					},
-					"name": "Role2"
+					"name": "Role2",
+					"type": ""
 				}
 			]
 		}
