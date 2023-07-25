@@ -671,6 +671,167 @@ ajouterTexte('Grigny','La grande Borne');
 ajouterTexte('Roi','Heenok');
 ajouterTexte('Dongue','Rodrigue');
 
+//! Le nom de la classe commence tjrs par majuscule
+class UserProfile {
+    //! Pas besoin de déclarer function devant le constructor et méthodes
+    constructor(nameUser, mailUser, phoneUser) {
+      // Attribut en IN MODE
+    this.nameUser = nameUser;
+    this.mailUser = mailUser;
+    this.phoneUser = phoneUser;
+      // Attribut en outMode
+    this.contact = phoneUser + mailUser;
+    this.resume = this.getProfileInfo();
+      // this._nom = nom;  
+    }
+    getProfileInfo() {
+    console.log('this ',this);
+    return `infos de l'utilisateur : 
+    son nom : ${this.nameUser}
+    son mail : ${this.mailUser}
+    son Tél : ${this.phoneUser}`;
+    }
+}
+/*
+const exampleUser1 = new UserProfile("José", "jose@gmail.com", "09876543");
+const exampleUser2 = new UserProfile("Sarah", "sarah@gmail.com", "063736252");
+exampleUser2.getProfileInfo();
+
+class Imc {
+    constructor(nameUser1,weightUser,heightUser){
+        this.nameUser1=nameUser1;
+        this.weightUser=weightUser;
+        this.heightUser=heightUser;
+    }
+    display() {
+        console.log('this',this,);
+        console.log (`${this.nameUser1} (${this.weightUser} kgs, ${this.heightUser} M) a un IMC de : ${this.resultImc()};`)
+    }
+resultImc (){
+    console.log('this',this,);
+    return (this.weightUser/(this.heightUser*this.heightUser)).toFixed(2);
+    };
+};
+
+let list = [
+    new Imc("Sébastien Chabal", 135, 1.7),
+    new Imc("Escaladeuse", 45, 1.68),
+    new Imc("JOJO ", 300, 2),
+    new Imc("Gontrand ", 90, 1.75),
+    new Imc("Colonel Clock ", 200, 1.75),
+    new Imc("Josiane de la Vega", 99, 1.55),
+];
+
+list.forEach((uneCase) => uneCase.display());
+*/
+
+
+let firstLink = document.querySelector('a');
+console.log(firstLink);
+let allLinks = document.querySelectorAll('a');
+console.log(allLinks);
+
+let firstTitle = document.querySelector('h1');
+console.log(firstTitle);
+
+let firstImg = document.querySelector('img');
+console.log(firstImg);
+
+// firstTitle.style.backgroundColor = 'blue';
+// firstTitle.style.color = 'beige';
+
+firstTitle.className = 'laClasse';
+firstLink.href = 'https://www.google.com'
+firstImg.src = 'https://picsum.photos/200/300'
+
+firstImg.addEventListener('click',()=>{
+    console.log('CA CLICK A DONF');
+});
+
+// * addEventListener - click
+//? Mode ƒ° => (anonyme + fléchée) 
+let leH1 = document.querySelector('#mainTitle');
+let selectTitle = false;
+leH1.addEventListener('click',()=>{
+    leH1.innerText = selectTitle ? '-- 🥳 --':'D.O.M Events';
+    selectTitle = !selectTitle;
+});
+//? Mode fonction anonyme classique
+// leH1.addEventListener('click',function(){
+//     leH1.innerText = 'LOL MDR';
+// });
+//? la fonction est en dehors
+// function maModifTitre(){
+//     leH1.innerText = 'LOL MDR';
+// }
+
+//? On apelle la fonction quand click
+// leH1.addEventListener('click',maModifTitre())
+
+
+//TODO1: récupérer le titre dans une variable leTitre
+//TODO 2: récupérer tous les liens dans une variable lesLiens
+// TODO 3-1: Sur le 1er lien placer un addEventListener qui écoute le "click" et éxecute une fonction
+// TODO 3-2: Dans cette fonction on ajoute la classe "maCouleur" sur titre
+// TODO 4-1: Sur le 2e lien placer un addEventListener qui écoute le "click" et éxecute une fonction
+// TODO 4-2: Dans cette fonction on supprime la classe "maCouleur" sur titre
+// TODO 4-1: Sur le 3e lien placer un addEventListener qui écoute le "click" et éxecute une fonction
+// TODO 4-2: Dans cette fonction on toggle la classe "maCouleur" sur titre
 
 
 
+const leTitre = document.getElementById('mainTitle');
+
+const lesLiens = document.getElementsByClassName('link-info');
+console.log(lesLiens[0]);
+
+lesLiens[0].onclick = function () {
+
+    leTitre.classList.add("maCouleur");
+    }
+    
+    lesLiens[1].onclick = function() {
+    
+        leTitre.classList.remove("maCouleur");
+    }
+    
+    lesLiens[2].onclick = function() {
+    
+        leTitre.classList.toggle("maCouleur");
+    }
+
+/*
+//lesLiens.addEventListener('click',()=>{
+    console.log('ça clique');
+});
+
+classList.add("maCouleur");
+
+function anotherClass (){
+    div.classList.add("maCouleur")
+};
+*/
+
+//EXO 24.5 
+// ** addEventListener - capter un évènement "click" - coord x - coord y
+//TODO 1: sur document, placer un addEventListener qui écoute le "click" et éxecute une fonction qui a unEvent en paramètre
+//TODO 2: Dans cette fonction on console log unEvent 
+//TODO 3: à partir du console log retrouver les propriétés de unEvent qui correspondent au coordonnées du click
+//TODO 4: Connaissez-vous des propriétés CSS dans lesquelles on peut se servir des coord du click pour le placer au bon endroit ? 
+:// ==) X/Y , Left/right 
+
+//(pensez aussi à mettre la position de l'image. en absolute) 
+
+const Event1 = document.querySelector ('document');
+
+Event1.addEventListener("click", function(unEvent) {
+        console.log('unEvent');
+});
+
+
+/*
+let div = document.createElement("div");
+div.append("Du texte");
+
+console.log(div.textContent); // "Du texte"
+*/ 
