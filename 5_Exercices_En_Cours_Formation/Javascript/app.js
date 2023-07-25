@@ -818,16 +818,17 @@ function anotherClass (){
 //TODO 2: Dans cette fonction on console log unEvent 
 //TODO 3: à partir du console log retrouver les propriétés de unEvent qui correspondent au coordonnées du click
 //TODO 4: Connaissez-vous des propriétés CSS dans lesquelles on peut se servir des coord du click pour le placer au bon endroit ? 
-:// ==) X/Y , Left/right 
+// ==) X/Y , Left/right, top/bottom
 
 //(pensez aussi à mettre la position de l'image. en absolute) 
 
-const Event1 = document.querySelector ('document');
-
-Event1.addEventListener("click", function(unEvent) {
-        console.log('unEvent');
+document.addEventListener('click', (unEvent)=> {
+    console.log(unEvent.offsetX, unEvent.offsetY);
+    let img2 = document.createElement("img");
+    img2.src = "https://picsum.photos/v2/list?page=2&limit=100";
+    img2.style.position = "absolute";
+    document.body.appendChild(img2);
 });
-
 
 /*
 let div = document.createElement("div");
