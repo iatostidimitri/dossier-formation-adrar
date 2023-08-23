@@ -671,9 +671,9 @@ ajouterTexte('Grigny','La grande Borne');
 ajouterTexte('Roi','Heenok');
 ajouterTexte('Dongue','Rodrigue');
 
-//! Le nom de la classe commence tjrs par majuscule
+// Le nom de la classe commence tjrs par majuscule
 class UserProfile {
-    //! Pas besoin de déclarer function devant le constructor et méthodes
+    // Pas besoin de déclarer function devant le constructor et méthodes
     constructor(nameUser, mailUser, phoneUser) {
       // Attribut en IN MODE
     this.nameUser = nameUser;
@@ -769,17 +769,6 @@ leH1.addEventListener('click',()=>{
 // leH1.addEventListener('click',maModifTitre())
 
 
-//TODO1: récupérer le titre dans une variable leTitre
-//TODO 2: récupérer tous les liens dans une variable lesLiens
-// TODO 3-1: Sur le 1er lien placer un addEventListener qui écoute le "click" et éxecute une fonction
-// TODO 3-2: Dans cette fonction on ajoute la classe "maCouleur" sur titre
-// TODO 4-1: Sur le 2e lien placer un addEventListener qui écoute le "click" et éxecute une fonction
-// TODO 4-2: Dans cette fonction on supprime la classe "maCouleur" sur titre
-// TODO 4-1: Sur le 3e lien placer un addEventListener qui écoute le "click" et éxecute une fonction
-// TODO 4-2: Dans cette fonction on toggle la classe "maCouleur" sur titre
-
-
-
 const leTitre = document.getElementById('mainTitle');
 
 const lesLiens = document.getElementsByClassName('link-info');
@@ -801,7 +790,6 @@ lesLiens[0].onclick = function () {
     }
 
 /*
-//lesLiens.addEventListener('click',()=>{
     console.log('ça clique');
 });
 
@@ -814,10 +802,10 @@ function anotherClass (){
 
 //EXO 24.5 
 // ** addEventListener - capter un évènement "click" - coord x - coord y
-//TODO 1: sur document, placer un addEventListener qui écoute le "click" et éxecute une fonction qui a unEvent en paramètre
-//TODO 2: Dans cette fonction on console log unEvent 
-//TODO 3: à partir du console log retrouver les propriétés de unEvent qui correspondent au coordonnées du click
-//TODO 4: Connaissez-vous des propriétés CSS dans lesquelles on peut se servir des coord du click pour le placer au bon endroit ? 
+// ** TODO 1: sur document, placer un addEventListener qui écoute le "click" et éxecute une fonction qui a unEvent en paramètre
+// ** TODO 2: Dans cette fonction on console log unEvent 
+//** TODO 3: à partir du console log retrouver les propriétés de unEvent qui correspondent au coordonnées du click
+//** TODO 4: Connaissez-vous des propriétés CSS dans lesquelles on peut se servir des coord du click pour le placer au bon endroit ? 
 // ==) X/Y , Left/right, top/bottom
 
 //(pensez aussi à mettre la position de l'image. en absolute) 
@@ -829,10 +817,3 @@ document.addEventListener('click', (unEvent)=> {
     img2.style.position = "absolute";
     document.body.appendChild(img2);
 });
-
-/*
-let div = document.createElement("div");
-div.append("Du texte");
-
-console.log(div.textContent); // "Du texte"
-*/ 
